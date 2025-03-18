@@ -13,7 +13,6 @@ The scripts have to be executed in a specific order to get the wanted outcome >
 9. Get interactive visualisation using interactiveSentiment.py
 
 **Execution Order**
-
 The scripts have to be executed in a specific order to get the wanted outcome >
 
 1. Data Collection
@@ -68,6 +67,3 @@ After following the installation steps and setting up your configuration, execut
 python scripts/dataPreprocessing.py
 
 Similarly, run each script in the given order to progress through the full analysis pipeline.
-
-**Testing and Results**
-The project has been validated through a combination of black-box and white-box testing. Key performance indicators such as accuracy, precision, recall, and F1-score have been computed to ensure that the fine-tuned BERT model meets the expected thresholds (approximately 83.5% accuracy was achieved). Topic modelling outputs have been evaluated using coherence measures, and both static and interactive visualisations have been implemented to confirm the system's reliability and usability.
