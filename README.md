@@ -21,10 +21,10 @@ The scripts have to be executed in a specific order to get the wanted outcome >
   Run **_fineTuneBERT.py_** to fine-tune a pre-trained BERT model on your labelled        dataset.
 
 5. Sentiment Classification
-  Execute **_classifyingSentiments.py_** to classify sentiments using your fine-      tuned BERT model.
+  Execute **_classifyingSentiments.py_** to classify sentiments using your fine-tuned BERT model.
 
 6. Applying the Fine-Tuned Model
-  Run **_applyingBERT.py_** to predict sentiment on new text inputs using the fine-       tuned model.
+  Run **_applyingBERT.py_** to predict sentiment on new text inputs using the fine-tuned model.
 
 7. Topic Modelling
 Execute both **_topicModellingLDA.py_** and **_topicModellingNMF.py_** to perform unsupervised topic modelling and extract key themes.
@@ -37,22 +37,22 @@ Execute **_interactiveSentiment.py_** to launch an interactive dashboard for exp
 
 **Installation**
 1. Clone the Repository
-'''
+```
 git clone https://github.com/getbenjamin1/Sentiment-Analysis.git
 cd Sentiment-Analysis
-'''
+```
 
 3. Create a Virtual Environment
-'''
+```
 python3 -m venv env
 source env/bin/activate   # On Windows use: env\Scripts\activate
-'''
+```
 
 5. Install Dependencies
-'''
+```
 pip install -r requirements.txt
 Note: Ensure you have Python 3.8 or above installed.
-'''
+```
 
 
 **Usage**
