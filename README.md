@@ -38,7 +38,7 @@ Execute **_interactiveSentiment.py_** to launch an interactive dashboard for exp
 **Installation**
 1. Clone the Repository
 '''
-git clone https://github.com/yourusername/Sentiment-Analysis.git
+git clone https://github.com/getbenjamin1/Sentiment-Analysis.git
 cd Sentiment-Analysis
 '''
 
