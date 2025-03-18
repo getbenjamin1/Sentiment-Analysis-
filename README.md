@@ -1,50 +1,39 @@
 # Sentiment-Analysis
 Sentiment Analysis on AGI in Public Discourse
 
-The scripts have to be executed in a specific order to get the wanted outcome >
-1. Collect all the data using RedditScrapper.py, MediaStack.py, GuardianScraper.py and also use apify to collect data from X
-2. Pre-process the data using dataPreprocessing.py
-3. Label data sentiment using autoLabeler.py
-4. Fine-tune BERT using fineTuneBERT.py
-5. Classify sentiment using classifyingSentiments.py
-6. Apply the finetuned model with applyingBERT.py
-7. Do topic modelling using both topicModellingLDA.py and topicModellingNMF.py
-8. Get static visualisation using staticSentiment.py
-9. Get interactive visualisation using interactiveSentiment.py
-
 **Execution Order**
 The scripts have to be executed in a specific order to get the wanted outcome >
 
 1. Data Collection
   Run the following scripts to collect raw data:
- _ RedditScraper.py
+ **_ RedditScraper.py
   MediaStack.py
-  GuardianScraper.py_
-  use Apify to collect data from X (formerly Twitter).
+  GuardianScraper.py_**
+  use apify to collect data from X (formerly Twitter).
 
 2. Data Preprocessing
-  Run _dataPreprocessing.py_ to clean, tokenise, and normalise the collected data.
+  Run **_dataPreprocessing.py_** to clean, tokenise, and normalise the collected data.
 
 3. Automatic Sentiment Labelling
-  Execute _autoLabeler.py_ to label data sentiment using VADER.
+  Execute **_autoLabeler.py_** to label data sentiment using VADER.
 
 4. Fine-Tuning BERT
-  Run _fineTuneBERT.py_ to fine-tune a pre-trained BERT model on your labelled        dataset.
+  Run **_fineTuneBERT.py_** to fine-tune a pre-trained BERT model on your labelled        dataset.
 
 5. Sentiment Classification
-  Execute _classifyingSentiments.py_ to classify sentiments using your fine-tuned     BERT model.
+  Execute **_classifyingSentiments.py_** to classify sentiments using your fine-      tuned BERT model.
 
 6. Applying the Fine-Tuned Model
-  Run _applyingBERT.py_ to predict sentiment on new text inputs using the fine-       tuned model.
+  Run **_applyingBERT.py_** to predict sentiment on new text inputs using the fine-       tuned model.
 
 7. Topic Modelling
-Execute both _topicModellingLDA.py_ and _topicModellingNMF.py_ to perform unsupervised topic modelling and extract key themes.
+Execute both **_topicModellingLDA.py_** and **_topicModellingNMF.py_** to perform unsupervised topic modelling and extract key themes.
 
 8. Static Visualisation
-Run _staticSentiment.py_ to generate static plots (e.g. bar charts, word clouds).
+Run **_staticSentiment.py_** to generate static plots (e.g. bar charts, word clouds).
 
 9. Interactive Visualisation
-Execute _interactiveSentiment.py_ to launch an interactive dashboard for exploring sentiment trends and topics.
+Execute **_interactiveSentiment.py_** to launch an interactive dashboard for exploring sentiment trends and topics.
 
 **Installation**
 1. Clone the Repository
