@@ -54,6 +54,7 @@ Note: Ensure you have Python 3.8 or above installed.
 
 
 **Usage**
+
 After following the installation steps and setting up your configuration, execute the scripts sequentially as outlined above. For example, to run data preprocessing:
 ```
 python scripts/dataPreprocessing.py
