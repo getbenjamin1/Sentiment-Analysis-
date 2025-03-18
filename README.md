@@ -6,9 +6,7 @@ The scripts have to be executed in a specific order to get the wanted outcome >
 
 1. Data Collection
   Run the following scripts to collect raw data:
- **RedditScraper.py
-  MediaStack.py
-  GuardianScraper.py**
+ **_RedditScraper.py MediaStack.py GuardianScraper.py_**
   use apify to collect data from X (formerly Twitter).
 
 3. Data Preprocessing
