@@ -37,19 +37,23 @@ Execute **_interactiveSentiment.py_** to launch an interactive dashboard for exp
 
 **Installation**
 1. Clone the Repository
+'''
 git clone https://github.com/yourusername/Sentiment-Analysis.git
 cd Sentiment-Analysis
+'''
 
-2. Create a Virtual Environment
+3. Create a Virtual Environment
+'''
 python3 -m venv env
 source env/bin/activate   # On Windows use: env\Scripts\activate
+'''
 
-3. Install Dependencies
+5. Install Dependencies
+'''
 pip install -r requirements.txt
 Note: Ensure you have Python 3.8 or above installed.
+'''
 
-4. Configure API Keys
-Create a configuration file (e.g. config.py) and add your API keys and relevant settings for Reddit, The Guardian, Mediastack, and Apify.
 
 **Usage**
 After following the installation steps and setting up your configuration, execute the scripts sequentially as outlined above. For example, to run data preprocessing:
